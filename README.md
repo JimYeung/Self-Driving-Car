@@ -23,7 +23,11 @@ You may approach the project via the following methods.
 ## Installation
 - Install <a href="<https://github.com/udacity/self-driving-car-sim>"target="_blank">**Udacity Car simulator**</a>
 
- <a href="http://recordit.co/" target="_blank">**Recordit**</a> 
+
+- Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
+- For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
+
+**Recordit**
 - Cloning the project 
 > !git clone https://github.com/JimYeung/Self-Driving-Car.git
 ---
