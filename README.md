@@ -21,7 +21,7 @@ You may approach the project via the following methods.
 ### Method 2: Training your own model. 
 ---
 ## Installation
-- Install <a href="<http://udacity.com/self-driving-car-sim/>" target="_blank">**Udacity Car simulator**</a>
+- Install <a href="<https://github.com/udacity/self-driving-car-sim/>" target="_blank">**Udacity Car simulator**</a>
 
 
 - Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
