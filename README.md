@@ -1,6 +1,5 @@
 # Self-Driving-Car
- 
-> The project implemented Nvidia architecture for behavioural cloning.
+ The project is about implementing a self-driving car via behavioural cloning using Nvidia deep learning architecture.
 
 ## Table of Contents
 - [About](#about)
@@ -17,8 +16,8 @@ This resporitory provides materials for implementing and training self-driving c
 ---
 ## Introduction
 You may approach the project via the following methods. 
-### Method 1: Walking through the jupyter notebook with trained model on Google Colab
-### Method 2: Training your own model. 
+- Method 1: Walking through the <a href="https://github.com/JimYeung/Self-Driving-Car/tree/main/docs" target="_blank">**Behavioural_Cloning.ipynb**</a> with trained model on Google Colab
+- Method 2: Training your own model. 
 ---
 ## Installation
 - Install <a href="https://github.com/udacity/self-driving-car-sim/" target="_blank">**Udacity Cars simulator**</a>
