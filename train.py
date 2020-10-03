@@ -4,10 +4,6 @@ import matplotlib.pyplot as plt
 from sklearn import utils
 from sklearn.model_selection import train_test_split
 import matplotlib.image as mpimg
-#import keras
-#from keras.models import Sequential
-#from keras.optimizers import Adam
-#from keras.layers import Conv2D, MaxPooling2D, Dropout, Flatten, Dense
 from imgaug import augmenters as iaa
 import cv2
 import pandas as pd
@@ -161,6 +157,7 @@ def main():
 
   #Batch Generator
   '''
+  # Check Point
   X_train_gen, y_train_gen = next(batch_generator(X_train, y_train, 2, 1))
   X_valid_gen, y_valid_gen = next(batch_generator(X_valid, y_valid, 2, 0))
   fig, axs = plt.subplots(1, 2, figsize=(15,10))
@@ -185,7 +182,7 @@ def main():
   save = input("Would like to save trained model as model.h5? y/n")
   if save == "y":
     model.save('model.h5')
-    print("model is saved")
+    print("model is saved as 'model.h5'")
   else:
     print("model is not saved.")
     pass
