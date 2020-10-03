@@ -22,6 +22,7 @@ def greeting():
 
 sio.emit()
     -emitting events
+    
 """
 speed_limit = 30
 @sio.on('telemetry')
