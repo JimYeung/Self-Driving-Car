@@ -20,9 +20,9 @@ You may approach the project via the following procedures
     - 1: Walking through the <a href="https://github.com/JimYeung/Self-Driving-Car/tree/main/docs" target="_blank">**Behavioural_Cloning.ipynb**</a> with trained model on Google Colab
     - 2: Train your own model.h5 with <a href="https://github.com/JimYeung/Self-Driving-Car/blob/main/train.py" target="_blank">**train.py**</a> 
 - Activate your tensorflow envir. 
-    > conda activate <yourenvir>
+    > conda activate *yourenvir*
 - Change to your working directory (same location as model.h5)
-    > cd <your path>/Self-Driving-Car
+    > cd *your path*/Self-Driving-Car
 - Laucnh your trained model.h5 with <a href="https://github.com/JimYeung/Self-Driving-Car/blob/main/Drive.py" target="_blank">**Drive.py**</a> 
     > python Drive.py
 - Open autonomous mode in <a href="https://github.com/udacity/self-driving-car-sim/" target="_blank">**Udacity Cars simulator**</a>
