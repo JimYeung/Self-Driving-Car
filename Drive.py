@@ -1,12 +1,17 @@
 from flask import Flask
 import socketio
 import eventlet
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 import base64
 from io import BytesIO
 from PIL import Image
 import numpy as np
 import cv2
+
+import tensorflow as tf
+physical_devices = tf.config.experimental.list_physical_devices('GPU')
+assert len(physical_devices) > 0, "Not enough GPU hardware devices available"
+config = tf.config.experimental.set_memory_growth(physical_devices[0], True)
 #Flask is used to create bi-direction communication between client & server
 
 sio = socketio.Server() #real-time communication between server & client
@@ -22,7 +27,6 @@ def greeting():
 
 sio.emit()
     -emitting events
-    
 """
 speed_limit = 30
 @sio.on('telemetry')
